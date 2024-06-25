@@ -11,7 +11,7 @@ const HomePage = () => {
 
 				<p className="mt-8 mb-8">Pilihan makanan bergizi terbaik adalah kunci untuk kesehatan yang optimal. Dengan memilih dengan bijak, kita memberikan fondasi yang kuat untuk kehidupan yang sehat dan bugar. Setiap suapan adalah langkah menuju kehidupan yang lebih baik dan lebih bertenaga. Ayo, mari pilih makanan bergizi terbaik untuk kesehatan yang prima dan masa depan yang cerah!</p>
 
-				<Link to="/" class="focus:outline-none text-lg text-white bg-green-400 hover:bg-green-500 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-400 dark:focus:ring-green-500">
+				<Link to="/form" class="focus:outline-none text-lg text-white bg-green-400 hover:bg-green-500 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-400 dark:focus:ring-green-500">
 					Cek Pilihan Makanan Terbaik untuk Si Kecil
 				</Link>
 			</div>
@@ -19,6 +19,10 @@ const HomePage = () => {
 				<img src="/head-1.png" className="h-screen m-auto" alt="" />
 			</div>
 		</div>
+		<p className="text-center py-5">
+				<span className="font-semibold">&copy; Copyright 2024. </span>
+				<span className="font-bold"> Forklore</span>
+			</p>
 	</div>
 	);
 };
