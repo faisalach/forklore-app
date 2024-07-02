@@ -85,7 +85,7 @@ const FormPage = () => {
 								type="number"
 								name="umur"
 								id="umur"
-								className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+								className="block text-black py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
 								placeholder=" "
 								required
 								defaultValue={umur}
@@ -93,7 +93,7 @@ const FormPage = () => {
 							/>
 							<label
 								htmlFor="umur"
-								className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+								className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 							>
 								Umur (Bulan)
 							</label>
@@ -103,7 +103,7 @@ const FormPage = () => {
 								type="number"
 								name="tinggi_badan"
 								id="tinggi_badan"
-								className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+								className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
 								placeholder=" "
 								required
 								defaultValue={tinggiBadan}
@@ -111,7 +111,7 @@ const FormPage = () => {
 							/>
 							<label
 								htmlFor="tinggi_badan"
-								className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+								className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
 							>
 								Tinggi Badan (cm)
 							</label>
@@ -120,7 +120,7 @@ const FormPage = () => {
 							<select
 								id="jenis_kelamin"
 								name="jenis_kelamin"
-								className="border-b-2 border-0 border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+								className="border-b-2 border-0 border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full py-2.5"
 								defaultValue={jenisKelamin}
 								onChange={(e) =>
 									setJenisKelamin(e.target.value)
@@ -134,7 +134,7 @@ const FormPage = () => {
 						<div className="relative z-0 w-full mb-5 group">
 							<button
 								type="button"
-								className="w-full py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-green-400 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+								className="w-full py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-green-400 focus:z-10 focus:ring-4 focus:ring-gray-100"
 								onClick={() => setShowModal(1)}
 							>
 								+ Makanan Sering Dimakan{" "}
@@ -149,15 +149,15 @@ const FormPage = () => {
 								} overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full`}
 							>
 								<div className="relative p-4 w-full max-w-2xl max-h-full mx-auto">
-									<div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
-										<div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-											<h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+									<div className="relative bg-white rounded-lg shadow">
+										<div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+											<h3 className="text-xl font-semibold text-gray-900">
 												Pilihan Makanan yang Sering
 												Dimakan
 											</h3>
 											<button
 												type="button"
-												className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+												className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
 												onClick={() => setShowModal(0)}
 											>
 												<svg
@@ -256,11 +256,11 @@ const FormPage = () => {
 												))}
 											</ul>
 										</div>
-										<div className="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+										<div className="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
 											<button
 												onClick={() => setShowModal(0)}
 												type="button"
-												className="text-white bg-green-400 hover:bg-green-500 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-green-400 dark:focus:ring-green-800"
+												className="text-white bg-green-400 hover:bg-green-500 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
 											>
 												Done
 											</button>
@@ -271,13 +271,13 @@ const FormPage = () => {
 						</div>
 						<button
 							type="submit"
-							className="mr-3 text-white bg-green-400 hover:bg-green-500 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-green-400 dark:focus:ring-green-800"
+							className="mr-3 text-white bg-green-400 hover:bg-green-500 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
 						>
 							Submit
 						</button>
 						<Link
 							to="/"
-							className="text-dark bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-gray-100 dark:focus:ring-gray-800"
+							className="text-dark bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
 						>
 							Kembali
 						</Link>
