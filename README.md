@@ -1,8 +1,18 @@
-# React + Vite
+# Capstone Project: Forklore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## People involved:
+  1. Hisyam Arief Zulfani (1217050065)
+  2. Muhammad Faisal (1217050091)
+  3. Muhammad Gifa (1217050096)
+  4. Muhammad Zidan (12170500106)
 
-Currently, two official plugins are available:
+## About Forklore
+Forklore is an application that becomes a loyal companion in your journey towards a healthy life. Built with a focus on addressing stunting issues in Indonesia, Forklore presents nutritious food recommendations tailored to your needs. With advanced technology and guidance from the Quran and Hadith, Forklore helps you choose the right foods for optimal growth and good health.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Proposal Capstone Project
+
+For further information about this project, please see the [Proposal Capstone Project](https://github.com/faisalach/Forklore).
+
+### App 
+
+For access the app, please see the [App](https://forklore-app.vercel.app).
